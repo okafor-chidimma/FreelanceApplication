@@ -7,6 +7,7 @@ The following core packages where used in building this application
 
 * [json-server](https://www.npmjs.com/package/json-server) - The server that exposed the full fake REST API used
 * [json-server-auth](https://www.npmjs.com/package/json-server-auth) - Json-Server Authentication
+* [Jquery](https://jquery.com/) - Javascript frame work for the front end
 * [Cloudinary](https://cloudinary.com/) - Used to store the files when uploaded
 
 # Features Available
