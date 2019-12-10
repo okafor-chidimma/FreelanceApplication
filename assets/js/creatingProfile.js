@@ -15,10 +15,6 @@ const validator = (jobTitle, jobDescription, amountCharge) => {
   }
   return status;
 };
-const formatNumber = () => {
-  $("#amountCharge").val().toString().match(/^0/)
-  $("#amountCharge-error-div").text('Amount cannot start with 0').show();
-};
 
 const displayImage = (fileArray) => {
   const fileObject = fileArray[0];
@@ -148,7 +144,6 @@ $(document).ready(function () {
     });
     $("#myProfile").attr({ "href": "profile.html?type=freelance" });
     $('#fileInput').change(fileUpload);
-    $("#amountCharge").change(formatNumber);
     $("#createProfileForm").on('submit', submitCreateDetails)
   } else {
     window.location.href = 'index.html';

@@ -88,11 +88,6 @@ const validator = (jobTitle, jobDescription, amountCharge) => {
   return status;
 };
 
-const formatNumber = () => {
-  $("#amountCharge").val().toString().match(/^0/)
-  $("#amountCharge-error-div").text('Amount cannot start with 0').show();
-  // return parseInt(amountCharge, 10)
-};
 const uploadToDb = (Authorization, userType) => {
   const jobTitle = $.trim($("#jobTitle").val()).toUpperCase();
   const jobDescription = $.trim($("#jobDescription").val());
@@ -153,7 +148,6 @@ $(document).ready(function () {
     });
     $("#myProfile").attr({ "href": "profile.html?type=freelance" });
     $('#fileInput').change(fileUpload);
-    $("#amountCharge").change(formatNumber);
     $.ajax({
       url: 'https://freelance-decagon.herokuapp.com/freelancers?userId=' + userId,
       type: 'GET',
