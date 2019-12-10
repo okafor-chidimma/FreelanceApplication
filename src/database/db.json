@@ -293,7 +293,7 @@
       "userId": 2,
       "jobTitle": "SOCIAL-MEDIA-INFLUENCER",
       "amountCharge": 10000,
-      "profilePicture": "https://res.cloudinary.com/okafor-chidimma/image/upload/v1575019373/t6i7kpimlpu0nxx4xoaf.jpg",
+      "profilePicture": "",
       "jobDescription": "General Community Medicine",
       "id": 2
     },
@@ -312,46 +312,32 @@
       "userId": 5,
       "jobTitle": "2D/3D Animation",
       "amountCharge": 10000,
-      "profilePicture": "https://res.cloudinary.com/okafor-chidimma/image/upload/v1575019104/io8x1bswcfwhg5ouxg8b.jpg",
+      "profilePicture": "",
       "jobDescription": "FlutterWave",
-      "certifications": [
-        "MBBS"
-      ],
       "id": 4
     },
     {
       "userId": 6,
       "jobTitle": "WEB-DEVELOPER",
       "amountCharge": 10000,
-      "profilePicture": "https://res.cloudinary.com/okafor-chidimma/image/upload/v1575019591/hsgy4usftw8xyrcczugk.jpg",
-      "jobDescription": "General Community Medicine",
-      "certifications": [
-        "MBBS"
-      ],
+      "profilePicture": "",
+      "jobDescription": "Full Stack Javascript Developer",
       "id": 5
     },
     {
       "userId": 8,
       "jobTitle": "SOCIAL-MEDIA-INFLUENCER",
       "amountCharge": 1000,
-      "profilePicture": "https://res.cloudinary.com/okafor-chidimma/image/upload/v1575019373/t6i7kpimlpu0nxx4xoaf.jpg",
-      "jobDescription": "Specialize in Accounting Techniques",
-      "certifications": [
-        "ACA",
-        "ICAN"
-      ],
+      "profilePicture": "",
+      "jobDescription": "Specialize in Digital Marketing",
       "id": 6
     },
     {
       "userId": 9,
       "jobTitle": "SOCIAL-MEDIA-INFLUENCER",
       "amountCharge": 1000,
-      "profilePicture": "https://res.cloudinary.com/okafor-chidimma/image/upload/v1575019104/io8x1bswcfwhg5ouxg8b.jpg",
-      "jobDescription": "Specialize in Accounting Techniques",
-      "certifications": [
-        "ACA",
-        "ICAN"
-      ],
+      "profilePicture": "",
+      "jobDescription": "Degree In Markerting",
       "id": 7
     },
     {
@@ -359,19 +345,15 @@
       "jobTitle": "SOCIAL-MEDIA-INFLUENCER",
       "amountCharge": 1000,
       "profilePicture": "",
-      "jobDescription": "Specialize in Accounting Techniques",
-      "certifications": [
-        "ACA",
-        "ICAN"
-      ],
+      "jobDescription": "Specialize in Marketing",
       "id": 8
     },
     {
       "userId": 13,
       "jobTitle": "SOCIAL-MEDIA-INFLUENCER",
       "amountCharge": 1000,
-      "profilePicture": "https://res.cloudinary.com/okafor-chidimma/image/upload/v1575019104/io8x1bswcfwhg5ouxg8b.jpg",
-      "jobDescription": "Specialize in Accounting Techniques",
+      "profilePicture": "",
+      "jobDescription": "Specialize in Marketing Techniques",
       "certifications": [
         "ACA",
         "ICAN"
@@ -382,14 +364,14 @@
       "userId": 12,
       "jobTitle": "SOCIAL-MEDIA-INFLUENCER",
       "amountCharge": 1000,
-      "profilePicture": "https://res.cloudinary.com/okafor-chidimma/image/upload/v1574962334/bjq9ib0pwbpavnkevagt.png",
-      "jobDescription": "Specialize in Accounting Techniques",
+      "profilePicture": "",
+      "jobDescription": "Specialize in Marketing Techniques",
       "createdAt": "November 28th 2019",
       "id": 10
     },
     {
       "userId": "30",
-      "profilePicture": "https://res.cloudinary.com/okafor-chidimma/image/upload/v1575019711/aavuebot1xkjz5hzjylv.jpg",
+      "profilePicture": "",
       "jobTitle": "WEB-DEVELOPER",
       "jobDescription": "I am a decagon trained Python Developer. i speicalize in Artificial Intelligence and Data Analytics",
       "amountCharge": "555555",

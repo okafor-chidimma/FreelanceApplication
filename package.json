@@ -12,16 +12,12 @@
   "author": "Okafor Chidimma",
   "license": "ISC",
   "devDependencies": {
-    "jwt-decode": "^2.2.0",
     "nodemon": "^2.0.1"
   },
   "dependencies": {
     "json-server": "^0.15.1",
     "json-server-auth": "^1.2.1",
     "cors": "^2.8.5",
-    "jquery": "^3.4.1",
-    "jsdom": "^15.2.1",
-    "moment": "^2.24.0",
     "morgan": "^1.9.1"
   }
 }

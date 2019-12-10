@@ -1,9 +1,7 @@
 const jsonServer = require('json-server');
 const auth = require('json-server-auth');
-const jwtToken = require('jwt-decode');
 const cors = require('cors');
 const morgan = require('morgan');
-const moment = require('moment');
 
 const app = jsonServer.create();
 const router = jsonServer.router('./src/database/db.json');
@@ -82,7 +80,11 @@ app.get('/users/:id/bookings', (req, res) => {
   res.status(200).json(newBookers);
 
 })
-
+app.get('/', (req, res) => {
+  res.status(200).json({
+    "message": "You are welcome to home page for Freelance 1.0 API"
+  });
+})
 
 app.use(router)
 app.listen(port, () => {
