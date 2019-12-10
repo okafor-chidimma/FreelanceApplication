@@ -1,9 +1,7 @@
 const jsonServer = require('json-server');
 const auth = require('json-server-auth');
-const jwtToken = require('jwt-decode');
 const cors = require('cors');
 const morgan = require('morgan');
-const moment = require('moment');
 
 const app = jsonServer.create();
 const router = jsonServer.router('./src/database/db.json');
