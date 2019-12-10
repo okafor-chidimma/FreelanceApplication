@@ -22,7 +22,7 @@ $(document).ready(function () {
     }
     $("#signUpButton").val('Signing You Up ...');
     $.ajax({
-      url: 'http://localhost:3000/signup',
+      url: 'https://freelance-decagon.herokuapp.com/signup',
       type: 'POST',
       dataType: 'json',
       data: userDetails,

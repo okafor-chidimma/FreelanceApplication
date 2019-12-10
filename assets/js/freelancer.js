@@ -10,7 +10,7 @@ $(document).ready(function () {
     $("#joinUser").attr({ "href": "signout.html", "id": "signOut" }).text("Sign Out");
   }
   $.ajax({
-    url: 'http://localhost:3000/freelancers',
+    url: 'https://freelance-decagon.herokuapp.com/freelancers',
     type: 'GET',
     dataType: 'json',
     success: function (data, textStatus, xhr) {

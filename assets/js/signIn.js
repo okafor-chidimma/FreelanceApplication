@@ -15,7 +15,7 @@ $(document).ready(function () {
       };
     }
     $.ajax({
-      url: 'http://localhost:3000/login',
+      url: 'https://freelance-decagon.herokuapp.com/login',
       type: 'POST',
       dataType: 'json',
       data: userDetails,
@@ -23,7 +23,7 @@ $(document).ready(function () {
         $("#email,#password").val('');
         localStorage.setItem('Authorization', data.accessToken);
         $.ajax({
-          url: 'http://localhost:3000/users?email=' + email,
+          url: 'https://freelance-decagon.herokuapp.com/users?email=' + email,
           headers: {
             'Authorization': 'Bearer ' + data.accessToken,
           },

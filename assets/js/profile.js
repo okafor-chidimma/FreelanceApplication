@@ -20,7 +20,7 @@ $(document).ready(function () {
       createBookers([]);
     } else {
       $.ajax({
-        url: 'http://localhost:3000/freelancers?userId=' + parseInt(userId, 10),
+        url: 'https://freelance-decagon.herokuapp.com/freelancers?userId=' + parseInt(userId, 10),
         type: 'GET',
         dataType: 'json',
         success: function (data, textStatus, xhr) {
@@ -32,7 +32,7 @@ $(document).ready(function () {
           localStorage.setItem('freelanceId', freelanceId);
           createProfileDiv(imageUrl, fullName, email, jobTitle, jobDescription, amountCharge, createdAt, hasProfile, freelanceId, Authorization, userId, userType);
           $.ajax({
-            url: 'http://localhost:3000/users/' + parseInt(userId, 10) + '/bookings',
+            url: 'https://freelance-decagon.herokuapp.com/users/' + parseInt(userId, 10) + '/bookings',
             headers: {
               'Authorization': 'Bearer ' + Authorization,
             },
@@ -154,7 +154,7 @@ const createBookerDiv = (imageUrl, name, bookerId) => {
 
 const deleteProfile = (freelanceId, Authorization, userId, userType) => {
   $.ajax({
-    url: 'http://localhost:3000/freelancers/' + freelanceId,
+    url: 'https://freelance-decagon.herokuapp.com/freelancers/' + freelanceId,
     headers: {
       'Authorization': 'Bearer ' + Authorization,
     },
@@ -162,7 +162,7 @@ const deleteProfile = (freelanceId, Authorization, userId, userType) => {
     dataType: 'json',
     success: function (data, textStatus, xhr) {
       $.ajax({
-        url: 'http://localhost:3000/users/' + userId,
+        url: 'https://freelance-decagon.herokuapp.com/users/' + userId,
         headers: {
           'Authorization': 'Bearer ' + Authorization,
         },

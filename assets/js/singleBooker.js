@@ -7,7 +7,7 @@ $(document).ready(function () {
     const myBookers = JSON.parse(localStorage.getItem('myBookers'));
     const Authorization = localStorage.getItem('Authorization');
     $.ajax({
-      url: 'http://localhost:3000/bookings/' + id,
+      url: 'https://freelance-decagon.herokuapp.com/bookings/' + id,
       headers: {
         'Authorization': 'Bearer ' + Authorization,
       },

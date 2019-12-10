@@ -111,7 +111,7 @@ const uploadToDb = (Authorization, userType) => {
     };
   }
   $.ajax({
-    url: 'http://localhost:3000/freelancers/' + freelanceId,
+    url: 'https://freelance-decagon.herokuapp.com/freelancers/' + freelanceId,
     headers: {
       'Authorization': 'Bearer ' + Authorization,
     },
@@ -155,7 +155,7 @@ $(document).ready(function () {
     $('#fileInput').change(fileUpload);
     $("#amountCharge").change(formatNumber);
     $.ajax({
-      url: 'http://localhost:3000/freelancers?userId=' + userId,
+      url: 'https://freelance-decagon.herokuapp.com/freelancers?userId=' + userId,
       type: 'GET',
       dataType: 'json',
       success: function (data, textStatus, xhr) {

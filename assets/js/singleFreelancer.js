@@ -19,7 +19,7 @@ $(document).ready(function () {
   let params = url.split('?')[1].split('=');
   let id = parseInt(params[1], 10);
   $.ajax({
-    url: 'http://localhost:3000/freelancers/' + id,
+    url: 'https://freelance-decagon.herokuapp.com/freelancers/' + id,
     type: 'GET',
     dataType: 'json',
     success: function (data, textStatus, xhr) {
@@ -73,7 +73,7 @@ const bookFreelancer = (userId, freelanceId, bookerId, createdAt, Authorization)
         userId, freelanceId, bookerId, createdAt
       }
       $.ajax({
-        url: 'http://localhost:3000/bookings',
+        url: 'https://freelance-decagon.herokuapp.com/bookings',
         headers: {
           'Authorization': 'Bearer ' + Authorization,
         },
