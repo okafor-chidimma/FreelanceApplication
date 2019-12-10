@@ -80,7 +80,11 @@ app.get('/users/:id/bookings', (req, res) => {
   res.status(200).json(newBookers);
 
 })
-
+app.get('/', (req, res) => {
+  res.status(200).json({
+    "message": "You are welcome to home page for Freelance 1.0 API"
+  });
+})
 
 app.use(router)
 app.listen(port, () => {
