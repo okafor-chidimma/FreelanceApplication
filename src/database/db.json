@@ -1,0 +1,493 @@
+{
+  "users": [
+    {
+      "email": "test@test.com",
+      "password": "$2a$10$byn48fwOHdwLY/04r2s/2uO/eOzAw1467xcOjHM36DpDn80SMqruy",
+      "fullName": "Okafor Chidimma",
+      "createdAt": "November 23rd 2019, 8:32:24 pm",
+      "hasProfile": false,
+      "userType": "user",
+      "id": 1
+    },
+    {
+      "email": "chichi@test.com",
+      "password": "$2a$10$Kj4x7QoCw4CirCHnBLL5NudJ7KMW4eTiKj.B1l2Delp0eZa.ZB4Ma",
+      "fullName": "Okafor Nkiru",
+      "hasProfile": true,
+      "createdAt": "November 23rd 2019, 8:32:24 pm",
+      "id": 2,
+      "userType": "freelance"
+    },
+    {
+      "email": "jessy@test.com",
+      "password": "$2a$10$iV7VQNgO8NCnl0CyRa06AOaCRw.NVJJWtjKRaIuCcAUEXvwlvZQ1e",
+      "fullName": "Okafor Jessica",
+      "hasProfile": "true",
+      "userType": "freelance",
+      "createdAt": "November 23rd 2019, 8:32:24 pm",
+      "id": 3
+    },
+    {
+      "email": "jessyDelete@test.com",
+      "password": "$2a$10$UtQaHCg2PD89H4h/MaCRyuvz9p0G/AGiJPJWPcVoQp6A9oZ7zytFG",
+      "fullName": "Okafor Jessica Delete",
+      "hasProfile": "true",
+      "userType": "freelance",
+      "createdAt": "November 23rd 2019, 8:32:24 pm",
+      "id": 4
+    },
+    {
+      "email": "jessyNew@test.com",
+      "password": "$2a$10$UtQaHCg2PD89H4h/MaCRyuvz9p0G/AGiJPJWPcVoQp6A9oZ7zytFG",
+      "fullName": "Tamunoibi Aprekuma",
+      "hasProfile": "true",
+      "userType": "freelance",
+      "createdAt": "November 23rd 2019, 8:32:24 pm",
+      "id": 5
+    },
+    {
+      "email": "123@test.com",
+      "password": "$2a$10$UtQaHCg2PD89H4h/MaCRyuvz9p0G/AGiJPJWPcVoQp6A9oZ7zytFG",
+      "fullName": "Hassan Dual",
+      "hasProfile": "true",
+      "userType": "freelance",
+      "createdAt": "November 23rd 2019, 8:32:24 pm",
+      "id": 6
+    },
+    {
+      "email": "jondoe@gmail.com",
+      "password": "$2a$10$KoeiR1mJ1H9.tOxiNo8rcO03puA4P.Wp0UFGHn/QDSUBIZeoNM.Cu",
+      "fullName": "Chukwuemeka Igwe",
+      "createdAt": "Tue Nov 26 2019 18:59:04 GMT+0100 (West Africa Standard Time)",
+      "id": 7
+    },
+    {
+      "email": "mercynat@yahoo.com",
+      "password": "$2a$10$2gOY9yMguBS/0OCDoEV88eBSO37DH9Po6sddpZqdnBS36ju1liNM.",
+      "fullName": "Cynthia okafor",
+      "hasProfile": "true",
+      "userType": "freelance",
+      "createdAt": "Tue Nov 26 2019 19:03:17 GMT+0100 (West Africa Standard Time)",
+      "id": 8
+    },
+    {
+      "email": "OKALLATCN@YAHOO.COM",
+      "password": "$2a$10$2ay5X6kZvp7V7ZpaYlt7V.v9bCnmORmOuoe9A1fgOmuXSKphCtNMG",
+      "fullName": "gyhkjh byukfu",
+      "hasProfile": "true",
+      "userType": "freelance",
+      "createdAt": "Tue Nov 26 2019 19:06:41 GMT+0100 (West Africa Standard Time)",
+      "id": 9
+    },
+    {
+      "email": "okafortochi3@gmail.com",
+      "password": "$2a$10$xj9HNSDP/tnsKgL8LUkgYOF2MstPTU8zNFsi1QysgPUmTWjYV/9WS",
+      "fullName": "Cynthia okafor",
+      "hasProfile": "true",
+      "userType": "freelance",
+      "createdAt": "Tue Nov 26 2019 19:08:46 GMT+0100 (West Africa Standard Time)",
+      "id": 10
+    },
+    {
+      "email": "jessy3@test.com",
+      "password": "$2a$10$WweXn2xBKrFyA39xhP7Mc.ALZ5ZWDx.STS7mVpWrsiGLnBuQ5EA0i",
+      "fullName": "Okafor Jessica Delete",
+      "createdAt": "November 23rd 2019, 8:32:24 pm",
+      "id": 11
+    },
+    {
+      "email": "chikaigwe16@gmail.com",
+      "password": "$2a$10$yTjRM7nAmwZHfRFvrjilTOc9mUIOwWhV8aOXbA7oMp/IIlKo.DPGq",
+      "fullName": "Chika Igwe",
+      "hasProfile": "true",
+      "userType": "freelance",
+      "createdAt": "Tue Nov 26 2019 19:12:34 GMT+0100 (West Africa Standard Time)",
+      "id": 12
+    },
+    {
+      "email": "mekigwe@gmail.com",
+      "password": "$2a$10$qctn3NKi0Bh82TuD7x5hTeUCX.qnPvbrpA2ZcgPoicFOzaozH0E/e",
+      "fullName": "Chukwuemeka Igwe",
+      "hasProfile": "true",
+      "userType": "freelance",
+      "createdAt": "Tue Nov 26 2019 19:21:32 GMT+0100 (West Africa Standard Time)",
+      "id": 13
+    },
+    {
+      "email": "ghsdjh@hahs.com",
+      "password": "$2a$10$wZVYzf/BbMQGKI3wbEK1WuaQ9qLxtOn8xCkDny.usDb.YjhaDlVOG",
+      "fullName": "Zanaib Balogun",
+      "hasProfile": "false",
+      "createdAt": "Tue Nov 26 2019 19:25:36 GMT+0100 (West Africa Standard Time)",
+      "id": 14
+    },
+    {
+      "email": "hjashhasd@hjdjhsdhj.com",
+      "password": "$2a$10$l6zVWyOc6d2mDijfNC5FA.2JSauiVuOC831bhyHTU0.FobWyMUmxi",
+      "fullName": "Chukwuemeka Igwe",
+      "hasProfile": "false",
+      "createdAt": "Tue Nov 26 2019 19:31:35 GMT+0100 (West Africa Standard Time)",
+      "id": 15
+    },
+    {
+      "email": "jhsdajkl@hcjxkxc.com",
+      "password": "$2a$10$BzbIg76zDhGLbrU2M4g1VOYA6vM//mT2AYNxbXByeckuuENJeH03i",
+      "fullName": "Testing Tester",
+      "hasProfile": "false",
+      "createdAt": "Tue Nov 26 2019 19:52:56 GMT+0100 (West Africa Standard Time)",
+      "id": 16
+    },
+    {
+      "email": "moment@moment.com",
+      "password": "$2a$10$/zfvSdImkcWab5sr9Oosh.zoAVqNyzc3ONv9ufsW1ENUNhRjjpGd2",
+      "fullName": "Okafor Jessica Delete",
+      "createdAt": "November 23rd 2019, 8:32:24 pm",
+      "id": 17
+    },
+    {
+      "email": "mjhdsjh@jhsdj.comnd",
+      "password": "$2a$10$iPUmsvnMn3UIzKzXPBQaA.jcia3w.ISipFT5Z.OM4Ul5dDrOvSKkm",
+      "fullName": "Tetsing user",
+      "hasProfile": "false",
+      "userType": "freelance",
+      "createdAt": "November 27th 2019",
+      "id": 18
+    },
+    {
+      "email": "testingmoment@moment.com",
+      "password": "$2a$10$x.YCfZU2PgVlgB78wGQcEeixaobEZV8GjnWH5N3Mybn.1UjaD4Mqe",
+      "fullName": "Moment Js",
+      "hasProfile": "false",
+      "userType": "freelance",
+      "createdAt": "November 27th 2019",
+      "id": 19
+    },
+    {
+      "email": "testhds@sjhsh.com",
+      "password": "$2a$10$vnMY2MTNxkNJchTbgETk3.yYernzb0xNKVZDGoZOAT7AfDDEDfLY.",
+      "fullName": "jhsdjh bhfdsjhkd",
+      "hasProfile": "false",
+      "userType": "user",
+      "createdAt": "November 27th 2019",
+      "id": 20
+    },
+    {
+      "email": "hsdhjjh@fjjksdjk.com",
+      "password": "$2a$10$N1MM8n55sNO/t1MtSrYl9ei0zPS5GDyDy1lyD.TFFMwbXJ2AX1a0m",
+      "fullName": "jhsdhjjhd jhsdjhsdjh",
+      "hasProfile": "false",
+      "userType": "user",
+      "createdAt": "November 27th 2019",
+      "id": 21
+    },
+    {
+      "email": "jdsajdk@djjsdjk.chjd",
+      "password": "$2a$10$5w2BtRCTt2.3zEvjoHPXtOvBIV/TDO9UboVvLeJEZAq8JgBTaZ3ru",
+      "fullName": "jhdsajjl jhdsajklsadj",
+      "hasProfile": "false",
+      "userType": "user",
+      "createdAt": "November 27th 2019",
+      "id": 22
+    },
+    {
+      "email": "jsdjk@jhsdjj.com",
+      "password": "$2a$10$qHzEC3Zx.kOO5mPtf4VOCepJaMiY.LuYJegQOzALEtBLPl874vCVC",
+      "fullName": "iosdjj jhsdjhjkd",
+      "hasProfile": "false",
+      "userType": "user",
+      "createdAt": "November 27th 2019",
+      "id": 23
+    },
+    {
+      "email": "jsdajjh@hjdsj.cjkdjk",
+      "password": "$2a$10$6B4/GnWxP4bLx8bDdJ2xvefIhG1AX/i7xqC5xLLVJ5AFw1EyOMoyK",
+      "fullName": "hdshjsd asdjhsdjh",
+      "hasProfile": "false",
+      "userType": "user",
+      "createdAt": "November 27th 2019",
+      "id": 24
+    },
+    {
+      "email": "testingcreate@profile.com",
+      "password": "$2a$10$2DRczL4nLbLMuyhdOFSWxuWrDQtWMVE9KreHpX97GKrjxDkbdad5m",
+      "fullName": "Testing Create Profile",
+      "hasProfile": "false",
+      "userType": "freelance",
+      "createdAt": "November 27th 2019",
+      "id": 25
+    },
+    {
+      "email": "fgdsgjsj@jhdjh.chs",
+      "password": "$2a$10$sZfpr6/3mUhuwu4DUvfj2ucOEGI52wOCyVPZan79umlS2hn3iphVe",
+      "fullName": "DSGHDS HSDHSD",
+      "hasProfile": "false",
+      "userType": "freelance",
+      "createdAt": "November 27th 2019",
+      "id": 26
+    },
+    {
+      "email": "testinguser@profile.com",
+      "password": "$2a$10$zdy1RC.6XSxUyLQ9XWXjTOE7jNR/3w.8ZoPEg2.1D1Ovn5mbH35pW",
+      "fullName": "Testing User Profile",
+      "hasProfile": "false",
+      "userType": "user",
+      "createdAt": "November 27th 2019",
+      "id": 27
+    },
+    {
+      "email": "testinglive@server.com",
+      "password": "$2a$10$8tODzXOhiS5QCzpS/OkP1.3R4LSvoNTV30ZrRmEJSKKqZSNMrcL8O",
+      "fullName": "Live Server",
+      "hasProfile": "false",
+      "userType": "user",
+      "createdAt": "November 28th 2019",
+      "id": 28
+    },
+    {
+      "email": "testingfreelance@profile.com",
+      "password": "$2a$10$t.QqZiBUzHGedUXaEapJ..Zu7RRKtCwaflmm0a5e8hCgOZUBV5/a.",
+      "fullName": "Testing Freelance",
+      "hasProfile": "false",
+      "userType": "freelance",
+      "createdAt": "November 28th 2019",
+      "id": 29
+    },
+    {
+      "email": "testingcreatefreelance@profile.com",
+      "password": "$2a$10$9NVPFwtvR7/G9u5qF0MMzerdqUFci7.gTqOHGQ1N/rcvppl5nCkPi",
+      "fullName": "Testing Create Upload",
+      "hasProfile": "true",
+      "userType": "freelance",
+      "createdAt": "November 28th 2019",
+      "id": 30
+    },
+    {
+      "email": "testinguserprofile@yahoo.com",
+      "password": "$2a$10$R9GjCwV5adV4EX/kTXfqXe2qTx6eFqRzIyxZSsyHlYKXNZSoSVni6",
+      "fullName": "Okafor Chidimma",
+      "hasProfile": "false",
+      "userType": "user",
+      "createdAt": "November 29th 2019",
+      "id": 31
+    },
+    {
+      "email": "freelancer@profile.com",
+      "password": "$2a$10$H1iRHmD1Kq7/zKab1ngN4O6s0rKkJjCTcfS6qltWCJHoPmjcZ.ngC",
+      "fullName": "Freelance One",
+      "hasProfile": "false",
+      "userType": "freelance",
+      "createdAt": "November 29th 2019",
+      "id": 32
+    }
+  ],
+  "freelancers": [
+    {
+      "userId": 3,
+      "jobTitle": "SOCIAL-MEDIA-INFLUENCER",
+      "amountCharge": 1000,
+      "profilePicture": "https://res.cloudinary.com/okafor-chidimma/image/upload/v1575019468/jzkhtfkwpnyhshnlbae0.jpg",
+      "jobDescription": "Specialize in Accounting Techniques",
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "jobTitle": "SOCIAL-MEDIA-INFLUENCER",
+      "amountCharge": 10000,
+      "profilePicture": "https://res.cloudinary.com/okafor-chidimma/image/upload/v1575019373/t6i7kpimlpu0nxx4xoaf.jpg",
+      "jobDescription": "General Community Medicine",
+      "id": 2
+    },
+    {
+      "userId": 4,
+      "jobTitle": "WEB-DEVELOPER",
+      "amountCharge": 10000,
+      "profilePicture": "",
+      "jobDescription": "Proficient in Javascript",
+      "certifications": [
+        "NIIT"
+      ],
+      "id": 3
+    },
+    {
+      "userId": 5,
+      "jobTitle": "2D/3D Animation",
+      "amountCharge": 10000,
+      "profilePicture": "https://res.cloudinary.com/okafor-chidimma/image/upload/v1575019104/io8x1bswcfwhg5ouxg8b.jpg",
+      "jobDescription": "FlutterWave",
+      "certifications": [
+        "MBBS"
+      ],
+      "id": 4
+    },
+    {
+      "userId": 6,
+      "jobTitle": "WEB-DEVELOPER",
+      "amountCharge": 10000,
+      "profilePicture": "https://res.cloudinary.com/okafor-chidimma/image/upload/v1575019591/hsgy4usftw8xyrcczugk.jpg",
+      "jobDescription": "General Community Medicine",
+      "certifications": [
+        "MBBS"
+      ],
+      "id": 5
+    },
+    {
+      "userId": 8,
+      "jobTitle": "SOCIAL-MEDIA-INFLUENCER",
+      "amountCharge": 1000,
+      "profilePicture": "https://res.cloudinary.com/okafor-chidimma/image/upload/v1575019373/t6i7kpimlpu0nxx4xoaf.jpg",
+      "jobDescription": "Specialize in Accounting Techniques",
+      "certifications": [
+        "ACA",
+        "ICAN"
+      ],
+      "id": 6
+    },
+    {
+      "userId": 9,
+      "jobTitle": "SOCIAL-MEDIA-INFLUENCER",
+      "amountCharge": 1000,
+      "profilePicture": "https://res.cloudinary.com/okafor-chidimma/image/upload/v1575019104/io8x1bswcfwhg5ouxg8b.jpg",
+      "jobDescription": "Specialize in Accounting Techniques",
+      "certifications": [
+        "ACA",
+        "ICAN"
+      ],
+      "id": 7
+    },
+    {
+      "userId": 10,
+      "jobTitle": "SOCIAL-MEDIA-INFLUENCER",
+      "amountCharge": 1000,
+      "profilePicture": "",
+      "jobDescription": "Specialize in Accounting Techniques",
+      "certifications": [
+        "ACA",
+        "ICAN"
+      ],
+      "id": 8
+    },
+    {
+      "userId": 13,
+      "jobTitle": "SOCIAL-MEDIA-INFLUENCER",
+      "amountCharge": 1000,
+      "profilePicture": "https://res.cloudinary.com/okafor-chidimma/image/upload/v1575019104/io8x1bswcfwhg5ouxg8b.jpg",
+      "jobDescription": "Specialize in Accounting Techniques",
+      "certifications": [
+        "ACA",
+        "ICAN"
+      ],
+      "id": 9
+    },
+    {
+      "userId": 12,
+      "jobTitle": "SOCIAL-MEDIA-INFLUENCER",
+      "amountCharge": 1000,
+      "profilePicture": "https://res.cloudinary.com/okafor-chidimma/image/upload/v1574962334/bjq9ib0pwbpavnkevagt.png",
+      "jobDescription": "Specialize in Accounting Techniques",
+      "createdAt": "November 28th 2019",
+      "id": 10
+    },
+    {
+      "userId": "30",
+      "profilePicture": "https://res.cloudinary.com/okafor-chidimma/image/upload/v1575019711/aavuebot1xkjz5hzjylv.jpg",
+      "jobTitle": "WEB-DEVELOPER",
+      "jobDescription": "I am a decagon trained Python Developer. i speicalize in Artificial Intelligence and Data Analytics",
+      "amountCharge": "555555",
+      "createdAt": "November 28th 2019",
+      "id": 12
+    }
+  ],
+  "bookings": [
+    {
+      "freelanceId": 1,
+      "userId": 3,
+      "bookerId": 1,
+      "createdAt": "November 23rd 2019, 8:32:24 pm",
+      "id": 1
+    },
+    {
+      "freelanceId": 2,
+      "userId": 2,
+      "bookerId": 1,
+      "createdAt": "November 23rd 2019, 8:32:24 pm",
+      "id": 2
+    },
+    {
+      "freelanceId": 2,
+      "userId": 2,
+      "bookerId": 3,
+      "createdAt": "November 23rd 2019, 8:32:25 pm",
+      "id": 3
+    },
+    {
+      "userId": "2",
+      "freelanceId": "2",
+      "bookerId": "27",
+      "createdAt": "November 27th 2019",
+      "id": 6
+    },
+    {
+      "userId": "2",
+      "freelanceId": "2",
+      "bookerId": "27",
+      "createdAt": "November 27th 2019",
+      "id": 7
+    },
+    {
+      "userId": "2",
+      "freelanceId": "2",
+      "bookerId": "27",
+      "createdAt": "November 27th 2019",
+      "id": 8
+    },
+    {
+      "userId": "4",
+      "freelanceId": "3",
+      "bookerId": "27",
+      "createdAt": "November 28th 2019",
+      "id": 9
+    },
+    {
+      "userId": "4",
+      "freelanceId": "3",
+      "bookerId": "27",
+      "createdAt": "November 28th 2019",
+      "id": 10
+    },
+    {
+      "userId": "4",
+      "freelanceId": "3",
+      "bookerId": "27",
+      "createdAt": "November 28th 2019",
+      "id": 11
+    },
+    {
+      "userId": "5",
+      "freelanceId": "4",
+      "bookerId": "27",
+      "createdAt": "November 28th 2019",
+      "id": 12
+    },
+    {
+      "userId": "30",
+      "freelanceId": "12",
+      "bookerId": "2",
+      "createdAt": "November 28th 2019",
+      "id": 13
+    },
+    {
+      "userId": "8",
+      "freelanceId": "6",
+      "bookerId": "31",
+      "createdAt": "November 29th 2019",
+      "id": 14
+    },
+    {
+      "userId": "32",
+      "freelanceId": "13",
+      "bookerId": "31",
+      "createdAt": "November 29th 2019",
+      "id": 15
+    }
+  ]
+}
